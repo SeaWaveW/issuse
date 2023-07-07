@@ -1,0 +1,18 @@
+{
+  "name": "vite-plugin-commonjs-externals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.1",
+    "vite-plugin-commonjs-externals": "^0.1.3",
+  }
+}
