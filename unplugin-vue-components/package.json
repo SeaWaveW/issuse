@@ -1,0 +1,34 @@
+{
+	"name": "vue2.7-ts",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"serve": "vite",
+		"build": "vue-tsc && vite build",
+		"build:size": "vue-tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"element-ui": "^2.15.13",
+		"vue": "^2.7.14",
+		"vue-router": "^3.6.5"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.9",
+		"@vitejs/plugin-vue2": "^2.2.0",
+		"sass": "^1.64.2",
+		"typescript": "^5.0.2",
+		"unplugin-auto-import": "^0.16.6",
+		"unplugin-vue-components": "^0.25.1",
+		"vite": "^4.4.5",
+		"vite-plugin-vue2": "^2.0.3",
+		"vue-tsc": "^1.8.5"
+	},
+	"browserslist": [
+		"ie > 9",
+		"chrome >= 14",
+		"safari >= 3",
+		"ios >= 8",
+		"android >= 4"
+	]
+}
